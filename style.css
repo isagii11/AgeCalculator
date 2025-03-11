@@ -22,7 +22,7 @@ body {
     background: linear-gradient(120deg, #d5b874, #cc1178, #dac9d2);
     padding: 30px;
     border-radius: 15px;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 20px rgba(237, 235, 235, 0.2);
     width: 320px;
     text-align: center;
     animation: slideUp 0.5s ease-out;
@@ -30,9 +30,13 @@ body {
 
 h1 {
     font-size: 26px;
-    color: #333;
+    color: #ede5e5;
     margin-bottom: 20px;
     animation: fadeIn 1.5s ease-in-out;
+}
+
+label{
+    color: white;
 }
 
 
@@ -64,7 +68,7 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #246727;
 }
 
 #result {
@@ -76,7 +80,7 @@ button:hover {
 #ageOutput {
     font-size: 20px;
     font-weight: bold;
-    color: #333;
+    color: #f6f6f6;
     animation: slideInResult 0.5s ease-out;
 }
 
